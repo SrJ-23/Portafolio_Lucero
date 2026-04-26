@@ -15,7 +15,7 @@ export function Hero({ onScrollClick }: HeroProps) {
       </div>
 
       <div className="relative z-10 flex flex-col items-start w-full px-8 md:px-24">
-        <motion.p 
+        <motion.p
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -24,14 +24,14 @@ export function Hero({ onScrollClick }: HeroProps) {
           Bienvenido / Welcome
         </motion.p>
         <div className="flex flex-col md:flex-row items-end gap-12">
-          <motion.h1 
+          <motion.h1
             initial={{ y: 40, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.4, ease: [0.33, 1, 0.68, 1] }}
             className="text-7xl md:text-[140px] font-thin leading-none tracking-tight italic font-serif"
           >
-            Luz & <br />
-            Hormigón
+            Forma & <br />
+            Entorno
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -39,21 +39,21 @@ export function Hero({ onScrollClick }: HeroProps) {
             transition={{ delay: 1, duration: 1 }}
             className="text-xs text-muted max-w-[200px] leading-relaxed mb-4"
           >
-            Arquitectura que respira a través de la geometría y la simplicidad material.
+            Arquitectura contemporánea en armonía con el entorno, donde la forma y la función se integran de manera natural.
           </motion.p>
         </div>
       </div>
 
-      <motion.div 
+      <motion.div
         initial={{ scale: 1.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.6, ease: [0.33, 1, 0.68, 1] }}
         className="absolute -right-24 bottom-24 w-1/2 h-[60%] z-0"
       >
-        <img 
-          src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=2000" 
-          alt="Architectural Render" 
-          className="w-full h-full object-cover grayscale brightness-105"
+        <img
+          src="https://res.cloudinary.com/dce2ocsnr/image/upload/v1777233944/1.1_crkbu0.jpg"
+          alt="Architectural Render"
+          className="w-full h-full object-cover brightness-105"
           referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 border-[24px] border-white" />

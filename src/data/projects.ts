@@ -2,57 +2,77 @@ import { Project } from "../types";
 
 export const projects: Project[] = [
   {
-    id: "casa-brisa",
-    name: "Casa Brisa",
-    category: "Residencial",
-    year: "2023",
-    location: "Malibu, California",
-    description: "Una exploración de la transparencia y la luz natural. Casa Brisa se integra perfectamente con su entorno costero mediante el uso de grandes planos de vidrio y concreto blanco.",
-    mainImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=1200",
-    images: [
-      "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1600607687940-47a04b62975e?auto=format&fit=crop&q=80&w=800"
-    ],
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
-  {
-    id: "museo-estrato",
-    name: "Museo Estrato",
-    category: "Cultural",
+    id: "paneles-arquitectonicos",
+    name: "01- Paneles Arquitectónicos",
+    category: "Presentación",
     year: "2024",
-    location: "Bilbao, España",
-    description: "Inspirado en las formaciones geológicas, el Museo Estrato utiliza concreto pigmentado para crear una estructura que parece emerger directamente de la tierra.",
-    mainImage: "https://images.unsplash.com/photo-1518005020250-68a0443fb752?auto=format&fit=crop&q=80&w=1200",
+    location: "Láminas Esquemáticas",
+    description: "Desarrollo y diseño de láminas de presentación arquitectónica enfocadas en la claridad conceptual y expresión gráfica esquemática.",
+    mainImage: "https://res.cloudinary.com/dce2ocsnr/image/upload/q_auto/f_auto/v1777241699/width_800_oimdxq.webp",
     images: [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800"
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777233233/PANEL_1_ujn8f4.png",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777233231/PANEL_5_atby9z.png",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777233230/PANEL_4_dqamma.png",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777233230/PANEL_3_bvv3up.png",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777233230/PANEL_2_elmvtw.png"
     ]
   },
   {
-    id: "torre-prisma",
-    name: "Torre Prisma",
-    category: "Corporativo",
-    year: "2022",
-    location: "Ciudad de México, México",
-    description: "Un hito de sostenibilidad en el corazón financiero. La Torre Prisma utiliza una fachada inteligente que optimiza la ganancia térmica mientras mantiene vistas panorámicas.",
+    id: "proyecto-carrera",
+    name: "02- Proyecto de carrera",
+    category: "Edificio Híbrido",
+    year: "2024",
+    location: "Lima, Perú",
+    description: "Investigación y diseño de un edificio de uso mixto que integra espacios residenciales, comerciales y públicos, optimizando la densidad urbana.",
+    mainImage: "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777233941/1_ao61u1.jpg",
+    images: [
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777233941/1_ao61u1.jpg",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777243197/width_1600_m4alwq.webp",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777241748/Gemini_Generated_Image_jdjkeljdjkeljdjk_gstb0e.png",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777243197/width_1600_m4alwq.webp",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777233914/PLOT_PLANT_uykeaz.jpg",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777241749/PORTAFOLIO_n3uzyu.png",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777241749/PORTAFOLIO_1_u0axzy.png",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777241748/PORTAFOLIO_2_lu3imj.png",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777241748/PORTAFOLIO_3_skrjic.png",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777241748/PORTAFOLIO_4_xi5yfo.png",
+      "https://res.cloudinary.com/dce2ocsnr/image/upload/v1777241748/PORTAFOLIO_5_wnsriu.png"
+    ]
+  },
+  {
+    id: "renders-vray",
+    name: "03- Renders Vray",
+    category: "Visualización",
+    year: "2023",
+    location: "Arquitectura 3D",
+    description: "Exploración de iluminación, materiales y texturas mediante el motor de renderizado Vray para lograr representaciones fotorrealistas.",
     mainImage: "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&q=80&w=1200",
     images: [
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=800"
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=800"
     ]
   },
   {
-    id: "galeria-lucero",
-    name: "Galería Lucero",
-    category: "Arte",
+    id: "trabajos-photoshop",
+    name: "04- Trabajos en Photoshop",
+    category: "Post-producción",
     year: "2023",
-    location: "Oaxaca, México",
-    description: "Ubicada en un edificio histórico restaurado, la galería combina muros de adobe tradicionales con intervenciones modernas de acero y vidrio.",
+    location: "Edición Digital",
+    description: "Técnicas de post-producción digital para mejorar la atmósfera, el entorno y la escala humana en visualizaciones arquitectónicas.",
     mainImage: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1200",
     images: [
-      "https://images.unsplash.com/photo-1541829081735-83a589cc8227?auto=format&fit=crop&q=80&w=800",
       "https://images.unsplash.com/photo-1541829081735-83a589cc8227?auto=format&fit=crop&q=80&w=800"
+    ]
+  },
+  {
+    id: "proyectos-varios",
+    name: "05- Proyectos",
+    category: "Mix Académico",
+    year: "2024",
+    location: "Diversos",
+    description: "Recopilación de proyectos académicos y exploraciones independientes que muestran la evolución del proceso creativo y técnico.",
+    mainImage: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&q=80&w=1200",
+    images: [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800"
     ]
   }
 ];

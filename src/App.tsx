@@ -75,7 +75,9 @@ export default function App() {
 
       <ProjectDetail
         project={selectedProject}
+        projects={projects}
         onClose={() => setSelectedProject(null)}
+        onNavigate={(p) => setSelectedProject(p)}
       />
 
       <StudioView
